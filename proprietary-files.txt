@@ -963,11 +963,6 @@ vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service
 vendor/bin/hw/vendor_transfer
 vendor/bin/hw/vtservice_hidl
 vendor/bin/TBaseDeviceBinding
-vendor/bin/aee_aedv
-vendor/bin/aee_aedv64
-vendor/bin/aee_archivev
-vendor/bin/aee_dumpstatev
-vendor/bin/aeev
 vendor/bin/atci_service
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
@@ -1034,8 +1029,6 @@ vendor/data/misc/pdc.txt
 vendor/etc/.tp/.ht120.mtc
 vendor/etc/asd/class.tflite
 vendor/etc/asd/detect.tflite
-vendor/etc/init/aee_aedv.rc
-vendor/etc/init/aee_aedv64.rc
 vendor/etc/init/atci_service.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
@@ -1134,7 +1127,6 @@ vendor/etc/M_Liveness_Antispoofing_General_6.0.6_14700201_24320401_half.model
 vendor/etc/M_Verify_MimicRes_Common_3.4.0_10000101_50001201_half.model
 vendor/etc/ST_Liveness.model
 vendor/etc/ST_Verify.model
-vendor/etc/aee-config
 vendor/etc/agps_profiles_conf2.xml
 vendor/etc/ams_aal_config.xml
 vendor/etc/aurisys_config.xml
