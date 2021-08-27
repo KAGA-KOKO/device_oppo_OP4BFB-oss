@@ -7,6 +7,17 @@
 LOCAL_PATH := device/oppo/OP4BFB
 
 # Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio@4.0 \
+    android.hardware.soundtrigger@2.1-impl \
+    audio.a2dp.default \
+    audio.bluetooth.default \
+    audio.r_submix.default \
+    audio.usb.default \
+    audio_policy.stub \ 
+    libaudiopreprocessing \
+    libtinycompress
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
