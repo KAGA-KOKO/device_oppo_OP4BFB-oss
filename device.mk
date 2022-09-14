@@ -127,6 +127,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/seccomp/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     $(LOCAL_PATH)/configs/seccomp/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy
 
+# Sensors
+PRODUCT_PACKAGES += \
+    libsensorndkbridge
+
 # WiFi
 PRODUCT_PACKAGES += \
     libkeystore-engine-wifi-hidl \
