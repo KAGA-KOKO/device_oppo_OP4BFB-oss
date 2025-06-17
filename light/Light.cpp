@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.light@2.0-service.OP4BFB"
+#define LOG_TAG "LightService"
 
 #include <log/log.h>
 
