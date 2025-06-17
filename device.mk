@@ -111,10 +111,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
-# Kernel
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)-kernel/Image.gz-dtb:kernel
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     factory_init.connectivity.rc \
