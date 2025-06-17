@@ -80,6 +80,8 @@ TARGET_KERNEL_CONFIG := cph2083_defconfig
 TARGET_KERNEL_DTB := mt6765.dtb
 TARGET_PREBUILT_KERNEL := out/target/product/OP4BFB/arch/arm64/boot/Image.gz-dtb
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+KERNEL_TOOLCHAIN := toolchains/gcc-linaro-7.5.0-2019.12/bin
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 
 BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
 BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE)
